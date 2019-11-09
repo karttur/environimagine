@@ -1,0 +1,34 @@
+---
+layout: post
+title: Business Model Canvas
+categories: pitch-bmc
+excerpt: "Business Model Canvas from SU"
+tags:
+  - BMC
+  - Business Model Canvas
+image: avg-trmm-3b43v7-precip_3B43_trmm_2001-2016_A
+date: '2019-11-07 11:27'
+modified: '2019-11-07 T18:17:25.000Z'
+comments: true
+share: true
+---
+
+### BMC
+
+Business Model Canvas (BMC)
+
+[Youtube introduction on BMC](https://www.youtube.com/watch?v=QoAOzMTLP5s).
+
+[Business Model Canvas Explained with Examples (Google, Skype, Gilette)](https://www.youtube.com/watch?v=CakUeC1sCSs), the examples make it easier to understand how to simplify.
+
+[Osterwalder explaining the Business Model Canvas (examples from Nestle coffee, tea and baby milk machines)](https://www.youtube.com/watch?v=RzkdJiax6Tw&t=1537s)
+
+[Pokemon Go - Business Model Canvas Case Study](https://www.youtube.com/watch?v=CN0cBZwNtWs). interesting because it deals with maps in mobile phones.
+
+Having seen these videos, I think that BMC is a great idea. But the businesses examples makes me realise why I am not in those un-interesting sectors of society.
+
+### Lean startup
+
+[Youtube: Validate your business idea in five steps](https://www.youtube.com/watch?v=QaoVWtLX038).
+
+Summary on how to validate a product and a business model without going into full production and then discovering that it did not work.
