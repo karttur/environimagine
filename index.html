@@ -10,24 +10,35 @@ search_omit: true
 
 <p>Over the past decades spectroscopy has developed into a
 mainstream method for detecting substances, contents, pollutions and
-impurities etc. Spectroscopy is traditionally used within many science desciplines.
-The ongoing miniturization means that spectrometers are now becoming handheld
-and thus also reaching a broad consumer market. I believe that within a decade
+impurities etc. Spectroscopy is traditionally used within many science disciplines.
+The ongoing miniturization also means that spectrometers are now becoming handheld
+and thus are now reaching a broader consumer market. I believe that within a decade
 (during the decade of the 2020s) smartphones will come with builtin spectrometers. Perhaps that will happen
-already come in 2021 or 2022.</p>
+already in 2021 or 2022 even.</p>
 
 <p>On the software side, the development of Machine Learning (ML) and
 Artificial Intelligence (AI) have paved the way for pattern recognition and
-improved estimations of sample, or image, content and compositions.</p>
-
-<p>Most spectrometers are used with proprietary software (apps). These apps
-have a steep learning curve and a large entry threshold. Few of them are Open Source</p>
+improved estimations of sample, or image, content and compositions.
+But most spectrometers are used with proprietary software (apps). These apps
+have a steep learning curve and a large entry threshold.
+Few of them are Open Source.
+Hence, even if the hardware is developing, the software side does not follow,
+and there is no user friendly alternatives available for civic use.
+Developing such a siftware package could capture an enormous market for
+civic investigation of the state of the local to global environment. Simply,
+Giving (back) the power of understanding the environment and
+the quality of e.g.ingested air, food and drinks from the producer to the individual consumer</p>
 
 <p>Based on ideas and algorithm developments that I have done over the
 past decades for interpreting mulit-spectral satellite images,
- I want to  develop a new approach for interpreting spectral data,
-whether from multi-spectral images or hyperspectral spectrometer.
-The pages assembled here is just for me to keep track of the
+I want to develop a new approach for interpreting spectral data,
+whether from multi-spectral (satellite) images or hyperspectral spectrometer.
+The method is graphical and users can add local geographic knowledge
+when doing geogrphic mapping from satellite images, or thematic knowledge
+when analysing samples for whihc they have special knoweldge. Due to pending
+patent applications I can not reveal anything about the central method yet.</p>
+
+<p>The pages assembled here is just for me to keep track of the
 different aspects I need to juggle in order to expand my small
 corportation into a business offering an app (online tool or for
 download) that would allow civic users to become imagery citizen scientists.</p>
@@ -56,6 +67,13 @@ download) that would allow civic users to become imagery citizen scientists.</p>
 <h2><a href="../components/">Components to use for building spectrometer</a><h2>
 <ul class="post-list">
 {% for post in site.categories.components limit:5 %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
+
+<h2><a href="../arduino/">Building spectrometers with Arduino</a><h2>
+<ul class="post-list">
+{% for post in site.categories.arduino limit:5 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>

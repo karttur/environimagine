@@ -26,4 +26,4 @@ The Arduino breakout boards from both [Sparkfun](../../components/components-spa
 
 All of these pages contain a very instructive video.
 
-The [AS726x Demo Kit](https://ams.com/as726xdemokit) is a Windows PC-hosted evaluation environment, designed to provide the user an quick-start approach to spectral sensing.
+The [AS726x Demo Kit](https://ams.com/as726xdemokit) is a Windows PC-hosted evaluation environment, designed to provide the user a quick-start approach to spectral sensing.

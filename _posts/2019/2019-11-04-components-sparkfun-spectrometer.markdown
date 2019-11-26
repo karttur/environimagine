@@ -26,4 +26,4 @@ Plus one [breakout board that combines all three to an 18 channel spectrometer (
 
 [Sparfun spectrometer with video](https://learn.sparkfun.com/tutorials/as726x-nirvi?_ga=2.211969364.15411215.1573062302-739318782.1573062302)
 
-I bought these components from [digi-key Sweden](https://www.digikey.se)
+I bought these components from [digi-key Sweden](https://www.digikey.se), they arrived within 48 hours at my doorstep (now shipment cost). I was rather impressed by that.

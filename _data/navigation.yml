@@ -20,11 +20,15 @@
   url: /components/
   include: 'N'
 
+- title: Arduino
+  url: /arduino/
+  include: 'N'
+
 - title: Drones
   url: /drones/
   include: 'N'
 
-- title: Design
+- title: 3D-Design
   url: /design/
   include: 'N'
 
