@@ -2,7 +2,7 @@
 layout: post
 title: Arduino shops
 categories: components
-excerpt: "Swrdish online shops for Arduino stuff"
+excerpt: "Swedish online shops for Arduino stuff"
 tags:
   - Arduino
   - shopping

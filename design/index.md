@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Drone spectroscody
-excerpt: "An archive of articles sorted by date."
+title: EnvironImagine design
+excerpt: "Design for hardware and software."
 search_omit: true
 ---
 
