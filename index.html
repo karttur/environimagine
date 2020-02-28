@@ -11,20 +11,20 @@ search_omit: true
 <p>Over the past decades spectroscopy has developed into a
 mainstream method for detecting substances, contents, pollutions and
 impurities etc. Spectroscopy is traditionally used within many science disciplines.
-The ongoing miniturization also means that spectrometers are now becoming handheld
-and thus are now reaching a broader consumer market. I believe that within a decade
-(during the decade of the 2020s) smartphones will come with builtin spectrometers. Perhaps that will happen
+The ongoing miniturization also means that spectrometers are now becoming handheld,
+reaching a broader consumer market. I believe that within a decade
+(the 2020s) smartphones will come with builtin spectrometers. Perhaps that will happen
 already in 2021 or 2022 even.</p>
 
 <p>On the software side, the development of Machine Learning (ML) and
-Artificial Intelligence (AI) have paved the way for pattern recognition and
+Artificial Intelligence (AI) has paved the way for pattern recognition and
 improved estimations of sample, or image, content and compositions.
 But most spectrometers are used with proprietary software (apps). These apps
 have a steep learning curve and a large entry threshold.
 Few of them are Open Source.
 Hence, even if the hardware is developing, the software side does not follow,
-and there is no user friendly alternatives available for civic use.
-Developing such a siftware package could capture an enormous market for
+and there are no user friendly alternatives available for civic use.
+Developing such a software package could capture an enormous market for
 civic investigation of the state of the local to global environment. Simply,
 Giving (back) the power of understanding the environment and
 the quality of e.g.ingested air, food and drinks from the producer to the individual consumer</p>
@@ -32,69 +32,44 @@ the quality of e.g.ingested air, food and drinks from the producer to the indivi
 <p>Based on ideas and algorithm developments that I have done over the
 past decades for interpreting mulit-spectral satellite images,
 I want to develop a new approach for interpreting spectral data,
-whether from multi-spectral (satellite) images or hyperspectral spectrometer.
-The method is graphical and users can add local geographic knowledge
-when doing geogrphic mapping from satellite images, or thematic knowledge
-when analysing samples for whihc they have special knoweldge. Due to pending
-patent applications I can not reveal anything about the central method yet.</p>
+whether from multi-spectral (satellite) images or hyperspectral spectrometers.
+The method is graphical and users can add local or thematic knowledge.
+For instance, farmers and foresters with knolwedge on local soil and water conditions when monitoring soil fertility and mositure from satellite images,
+or vine-lovers analysing the content of vines from different years, districts or grapes.
+Due to pending patent applications I can not reveal anything about the central method yet.</p>
+
+<p>Since I started this "project" in 2014, technology has matured. Not least because of the
+development of Internet of Things (IoT) and associated sensing and network technology.
+A new generation of sencors, microcontroller, communication and data transfer
+protocols, the growth of cloud computing and facilitated app development; all are
+important components for venturing into new opportunies for "Real world quality control with environmental imagine".
+People are requesting facts, not someone elses truth. The market potential for sensing your own environment,
+the products around, the stuff you eat and drink, is enormous.
+Smart farming, where IoT integrated sesning is now plowing new grounds (so to say) is
+estimated to have a market value of 23 billion USD in 2022.</p>
 
 <p>The pages assembled here is just for me to keep track of the
 different aspects I need to juggle in order to expand my small
 corportation into a business offering an app (online tool or for
 download) that would allow civic users to become imagery citizen scientists.</p>
 
-<h2><a href="../general/">General information sources</a><h2>
+<h2><a href="../venture/">Ventures with spectroscopy</a><h2>
 <ul class="post-list">
-{% for post in site.categories.general limit:5 %}
+{% for post in site.categories.venture limit:5 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>
 
-<h2><a href="../otherprods/">Handheld spectrometers on the market</a><h2>
+<h2><a href="../market/">Markets for spectroscopy sensing</a><h2>
 <ul class="post-list">
-{% for post in site.categories.otherprods limit:5 %}
+{% for post in site.categories.market limit:5 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>
 
-<h2><a href="../sensors/">Sensors for building spectrometer</a><h2>
+<h2><a href="../pitch-bmc/">Pitch and Business Model Canvas (BMC)</a><h2>
 <ul class="post-list">
-{% for post in site.categories.sensors limit:5 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
-
-<h2><a href="../components/">Components to use for building spectrometer</a><h2>
-<ul class="post-list">
-{% for post in site.categories.components limit:5 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
-
-<h2><a href="../arduino/">Building spectrometers with Arduino</a><h2>
-<ul class="post-list">
-{% for post in site.categories.arduino limit:5 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
-
-<h2>Spectroscopy and drones<h2>
-<ul class="post-list">
-{% for post in site.categories.drones limit:5 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
-
-<h2>Designing a handheld spectrometer<h2>
-<ul class="post-list">
-{% for post in site.categories.design limit:5 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
-
-<h2><a href="../pitch-bmc/">Pitch and Business Model Canvas</a><h2>
-<ul class="post-list">
-{% for post in site.categories.pitch-bmc limit:10 %}
+{% for post in site.categories.pitch-bmc limit:5 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>
@@ -102,6 +77,13 @@ download) that would allow civic users to become imagery citizen scientists.</p>
 <h2><a href="../funding/">Funding opportunities</a><h2>
 <ul class="post-list">
 {% for post in site.categories.funding limit:10 %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+{% endfor %}
+</ul>
+
+<h2><a href="../initiatives/">Initiatives to follow or link-in to?</a><h2>
+<ul class="post-list">
+{% for post in site.categories.initiative limit:10 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
 {% endfor %}
 </ul>

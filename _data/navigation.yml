@@ -4,32 +4,16 @@
   url: /about/
   include: 'N'
 
-- title: Intro
+- title: Fount
   url: /
   include: 'N'
 
-- title: Spectrometers
-  url: /otherprods/
+- title: Venture
+  url: /venture/
   include: 'N'
 
-- title: Sensors
-  url: /sensors/
-  include: 'N'
-
-- title: Components
-  url: /components/
-  include: 'N'
-
-- title: Arduino
-  url: /arduino/
-  include: 'N'
-
-- title: Drones
-  url: /drones/
-  include: 'N'
-
-- title: Design
-  url: /design/
+- title: Market
+  url: /market/
   include: 'N'
 
 - title: Pitch
@@ -38,6 +22,10 @@
 
 - title: Funding
   url: /funding/
+  include: 'N'
+
+- title: Initiatives
+  url: /initiative/
   include: 'N'
 
 - title: Search

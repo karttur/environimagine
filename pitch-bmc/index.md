@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pitch and BMC
+title: Pitch and Business Model Canvas (BMC)
 excerpt: "An archive of references to pitch decks and Business Model Canvasses."
 image: std-trmm-3b43v7-precip_3B43_trmm_2001-2016_A
 search_omit: true
