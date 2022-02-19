@@ -13,7 +13,6 @@ comments: true
 share: true
 ---
 
-
 ### ALMI
 
 [ALMI](https://www.almi.se)
@@ -33,7 +32,6 @@ share: true
 #### Pitch
 
 [Pitcha din startup](https://www.almi.se/almi-invest/pitcha-din-startup/pitch-deck/), och man kan även ladda upp sin pitch.
-
 
 ### Vinnova
 

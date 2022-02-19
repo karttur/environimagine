@@ -12,7 +12,6 @@ comments: true
 share: true
 ---
 
-
 ### [IVA](https://www.iva.se)
 
-Jag hade noterat att IVA kunde vara ett alternativ för att få stöd för att driva en innovation till ett kommersiellt föreatg. Men när jag kollade i november 2019 hittade jag inget.
+Jag hade noterat att IVA kunde vara ett alternativ för att få stöd för att driva en innovation till ett kommersiellt företag. Men när jag kollade i november 2019 hittade jag inget.

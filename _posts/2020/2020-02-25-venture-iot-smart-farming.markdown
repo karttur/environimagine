@@ -56,7 +56,7 @@ IoF2020 is a research initiative financed through [Horizon 2020 Industrial Leade
 
 #### Precision cultivation for sustainable food production
 
-This is a Swedish research project under [Research Institute of Sweden (RISE)](https://www.ri.se/en/our-stories/precision-cultivation-sustainable-food-production). The project focus is on adapting cultivation to conditions in the field using sensors and IoT technology. The aim is to improve yields by up to 20% without increasing climate gas emissions or nutrient leakage.
+This is a Swedish research project under [Research Institute of Sweden (RISE)](https://www.ri.se/en/our-stories/precision-cultivation-sustainable-food-production). The project focus is on adapting cultivation to conditions in the field using sensors and IoT technology. The aim is to improve yields by up to 20 % without increasing climate gas emissions or nutrient leakage.
 
 #### Digitalised agriculture
 
